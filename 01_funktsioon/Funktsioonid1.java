@@ -1,6 +1,6 @@
 public class Funktsioonid1{
     public static double tollideks(double sentimeeter){
-        return sentimeeter*0.39370;
+        return sentimeeter*0.3937;
     }
     //tehke funktsiooniga sentimeetrid
     public static void main(String[] arg){
