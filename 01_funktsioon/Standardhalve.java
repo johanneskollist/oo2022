@@ -4,7 +4,7 @@ public class Standardhalve {
         double[] numArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         double SD = calculateSD(numArray);
 
-        System.out.format("Standard Deviation = %.6f", SD);
+        System.out.format("Standardhalve = %.6f", SD);
     }
 
     public static double calculateSD(double numArray[])

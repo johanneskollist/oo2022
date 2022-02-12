@@ -1,2 +1,3 @@
 # oo2021 kodutööde esitamise repositoorium.
-Iga õppur teeb repositooriumist fork-haru ning paneb oma tööd sinna sisse.
+See repositoorium kuulub Johannes Theodor Kollistile.
+Sisu võib olla vigane ja pole tõsiselt võetav. :)
