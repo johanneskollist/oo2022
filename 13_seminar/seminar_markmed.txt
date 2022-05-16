@@ -1,0 +1,115 @@
+Märkmed seminari teemadel:
+
+
+VEAOLUKORRAD JA NENDE HALDAMINE
+
+Syntaxi vead - kompileerija leiab koodist ise mingi vea ning koodi ei ole isegi võimalik jooksutada.
+näiteks klass pole suure tähega, või kasutate muutujat, mida pole deklareeritud.
+
+Runtime errorid - Java tuvastab vea koodi jooksutamise ajal. Java tuvastab, kus see error oli ning, mis teised meetodid sellega seoses töös olid. JVM(java Virtual Machine)
+Võib esineda siis, kui kasutaja programmi jooksutamise ajal lisab väärasid andmeid.
+
+Loogikavead - kood jookseb ja töötab, kuid ei täida seda ülesannet, mis sina soovisid, et ta täidaks.
+Selleks tuleks kood täpselt üle vaadata, et mis järjekorras kõik jookseb. 
+Kasutada "print" statemente, et näha, mis kohtades kood jookseb. 
+Või siis kasutada debuggerit.
+
+try and catch
+Vea tekkimisel kood käituks nii, kuidas sina soovid, kuvab vea vms
+
+
+JAVA KASUTUSVALDKONNAD, KÄIVITAMISED
+
+Graphic user interface, veebiserverid, rakenduseserverid. Ettevõtterakendused.
+Java võimaldav kasutada multi-sailingut, mitu programmi saab jooksutada samal ajal. 
+Objektorienteeritud programmeerimine võimaldab polümorphilisi kapsulatsioone.
+
+JAVA ALAMTÜÜBID
+
+Primitiivtüübid.
+byte, int, boolean, short, long, float.
+byte säästad rohkem mälu.
+double kahekordne 64bit systeem
+float 34bit systeem
+
+JAVA MASSIIVIDE LOOMINE JA KASUTAMINE
+
+
+LISTID
+
+Nende loomiseks on interface list.
+array list - list massiivi põhjal
+linked list - nagu rong, mitu vagunit, iga vagun on eelmisega seotud
+Kui tihti paneme andmeid ja tihti kustutame siis pigem linked list
+Teistsugustes olukordades array list, kui pole andmeid vaja listi sees muuta.
+
+FAILIDE KIRJUTAMINE JA LUGEMINE
+
+Saab failist lugeda ühte tähemärki, sõna, numbrit.
+Bufferedreaderi kasutamine, loeb teksti ja saab määrata bufferi suurust
+
+OBJEKTORIENTEERITUD + ja -
+
+Võib käsitleda mitutu objekti korraga. 
+Saab lihtsalt muuta süsteemi suureks ja siis väikseks.
+Saab kasutada meetmeid, et programm oleks turvaline. Kood on inimesele võrdlemisi lihtne ja arusaadav
+
+Tihtipeale Objektorienteeritudprogrammid on suured ja pikad. Mis teeb runtime pikaks.
+Ei sobi kõikide probleemide lahendamiseks. lühikese koodi võib lihtsamini lahendada.
+Peab olema hea disaini ja planeerimise oskus. 
+
+STAATILISED FUNKTSIOONID
+
+Meetod, mis on kättesaadavad ilma isendit loomata. kuulub klassi, mitte isendi juurde.
+Kasutatakse näiteks andmete teisendamisel.
+Meetod, mida saab teha staatiliselt, kui funktsioon sõltub isendi parameetritest. 
+
+ANMEID SISALDAVA KLASSI EKSEMPLARI KASUTAMINE ISIKUKOODI NÄITEL
+
+klass võib sisaldada muutujaid,
+
+
+OBJEKTIDE MASSIIVI LOOMINE JA KASUTAMINE
+
+Objektide massiiv käsitleb siis mitut objekti, näiteks isikukoodide puhul on mitu isikukoodi.
+Võid lisada massiivi ja siis neid redigeeride ja nendega mängida.
+
+STAATILISED JA ISENDIMUUTUJAD
+
+Isendimuutujad ei ole klassiga seotud. 
+Tüüpiline staatiline meetod, näiteks raamatud, mida sisestada, kõik erinevad, saad panna jooksvalt, et lisab faili.
+
+LIIDESTE KASUTAMINE RAKENDUSE KAVANDAMISE JUURES
+
+Liidesed tuleb enne paika panna, et mis klassides millist liidest kasutada.
+Klassi saab implementida ka mitu liidest. 
+
+LIIDESTE VAHEL KOMPOMNENTIDE OMAVAHEL ASENDAMINE
+
+LIIDESTE KASUTAMINE RAKENDUSE ERI OTSTARBEGA OSADE ÜHENDAMISEL
+
+on 2 klassi, et liita int ja teine et liita double
+Teed liidese, kus on õige meetod ja klassides saad kasutada interface ning paned kirja õiget andmetüüpi.
+
+ALAMKLASSID, PÄRILUS
+
+AUTOMAATTESTID RAKENDUSE KAVANDAMISEL
+
+Et rakendus oleks error-free.
+Testplaanid, mis koodi valmistamisel abistavad rakenduse loomist.
+Kasutaja poolt jälgida, kasutaja hiirt, et UI parandada.
+Hoiavad aega kokku, täpsemad kui manuaaltestid ja saab kiire tagasside.
+
+AUTOMAATTESTID KOODI MUUTMISE JUURES
+
+UNIT testid, 
+koodi erinevate osade kokku soimist
+Liideste testid,
+Turvalisuse testid
+Mokito lubab jäljendada erinevaid komponente andmebaasi nii, et muudatusi andmebaasis ei toimuks. Võtab koodi ja teeb seda, mis vaja.
+
+
+JAVA GRAAFIKAVAHENDID
+
+SWING tööriistakomplekt, pakub väga lihtsaid asju, ei pea koodi väga palju kirjutada.
+
